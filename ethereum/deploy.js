@@ -3,11 +3,9 @@ const Web3 = require("web3");
 const PatientData = require('./build/PatientData.json');
 
 const provider = new HDWalletProvider(
-  'follow shiver unfair sign churn month robot tool candy light pact maximum',
-  // remember to change this to your own phrase!
-  'https://sepolia.infura.io/v3/69f06d84671f459dbc70fb6c5d9102ce'
-  // remember to change this to your own endpoint!
-);
+  'Your_Mnemonic',
+  'YOUR_INFURA_URL'
+ );
 const web3 = new Web3(provider);
 
 const deploy = async () => {
